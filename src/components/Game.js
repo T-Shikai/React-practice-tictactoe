@@ -52,6 +52,7 @@ class Game extends React.Component{
           <li key={buttonNum}>
             <button onClick={()=>this.jumpTo(buttonNum)}>
               {show}
+              {/* 過去の盤面が表示されるように変更 */}
               <Board 
                 squares={step.squares}
                 onClick={(i)=>{return;}}
